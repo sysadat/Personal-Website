@@ -1,0 +1,54 @@
+/* Universally select the entire document and make it font Arial */
+*{
+  font-family: Arial;
+}
+
+
+/* Select all H3s in the contactMethod class and underline them */
+.contactMethod h3{
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+p{
+  font-size: 16px;
+  color: black;
+  font-family: Arial;
+}
+
+#Header{
+  font-size: 22px;
+}
+
+#navigation{
+  font-size: 18px;
+}
+
+.contactMethod{
+  font-size: 20px;
+  color: blue;
+}
+
+a:hover{
+  color: red ;
+}
+
+a:active{
+  color: orange;
+}
+
+a:visited{
+  color: purple;
+}
+
+/* h1{
+  color: blue;
+  text-decoration: underline;
+  text-transform: uppercase;
+} */
+
+/* #Header{
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
